@@ -320,12 +320,20 @@ text-shadow: 0 0 5px #03e9f4,
 
 .portfolio-layer h4{
 
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .portfolio-layer p{
   font-size: 1.2rem;
   margin: .3rem 0 1rem;
+}
+/* Target the first and second portfolio-layer elements */
+.portfolio-box:nth-child(1) .portfolio-layer p,
+.portfolio-box:nth-child(2) .portfolio-layer p {
+  color: black; /* Change this to the desired color value */
+  font-size: 1.3rem;
+  margin: .3rem 0 1rem;
+  
 }
 
 .portfolio-layer a{
